@@ -1,7 +1,8 @@
 package account.repository;
 
-import account.request.UserSignupRequest;
-import account.response.UserSignupResponse;
+
+import account.model.request.UserSignupRequest;
+import account.model.response.UserSignupResponse;
 import org.springframework.stereotype.Repository;
 
 @Repository

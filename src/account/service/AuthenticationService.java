@@ -1,8 +1,8 @@
 package account.service;
 
+import account.model.request.UserSignupRequest;
+import account.model.response.UserSignupResponse;
 import account.repository.AuthenticationRepository;
-import account.request.UserSignupRequest;
-import account.response.UserSignupResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
